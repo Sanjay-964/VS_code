@@ -1,0 +1,64 @@
+.cursive{
+    font-family: cursive;
+}
+.right{
+    text-align: right;
+}
+#red{
+    color: red;
+}
+.center{
+    text-align: center;
+}
+.background_green{
+    background: #0eec1d;
+}
+.move_r {
+    direction: rtl;
+  }
+  body{
+    background-color: rgb(253, 252, 252);
+    background-image: url(https://images.pexels.com/photos/911738/pexels-photo-911738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-repeat: no-repeat ;
+ }
+ .yellow{
+    background: rgb(245, 241, 23);
+    z-index: 3;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    top: 200px;
+
+}
+.orange{
+    background-color: rgb(249, 202, 13);
+    z-index: 1;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 150px;
+    top:  250px;
+
+
+}
+.green{
+    background-color: rgb(13, 255, 0);
+    z-index: 2;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+
+}
+.container{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 50% 50%;
+}
+.grit-item{
+    width: auto;
+    height: 200%;
+    background-color: chocolate;
+}
